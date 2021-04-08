@@ -12,6 +12,7 @@ int wlan_count(FILE* file) {
 }
 
 int bssid_count(FILE* file) {
+	// what shall I pass here. A big enough buffer?
 	char buffer[20];
 	int bssid_num = 0, distance = 0;
 	while (1) {
