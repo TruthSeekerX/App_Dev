@@ -1,8 +1,35 @@
  
 Interface name : WiFi 
-There are 4 networks currently visible. 
+There are 6 networks currently visible. 
 
-SSID 1 : MARG
+SSID 1 : Koti
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : 04:95:e6:04:5d:3c
+         Signal             : 85%  
+         Radio type         : 802.11ac
+         Channel            : 40 
+         Basic rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 2                 : 04:95:e6:04:5d:34
+         Signal             : 81%  
+         Radio type         : 802.11ac
+         Channel            : 40 
+         Basic rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 3                 : 04:95:e6:04:5d:31
+         Signal             : 86%  
+         Radio type         : 802.11n
+         Channel            : 6 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 4                 : 04:95:e6:04:5d:39
+         Signal             : 88%  
+         Radio type         : 802.11n
+         Channel            : 1 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 2 : MARG
     Network type            : Infrastructure
     Authentication          : WPA2-Personal
     Encryption              : CCMP 
@@ -13,51 +40,46 @@ SSID 1 : MARG
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
 
-SSID 2 : Mar
+SSID 3 : Mar
     Network type            : Infrastructure
     Authentication          : WPA2-Personal
     Encryption              : CCMP 
     BSSID 1                 : 0c:9d:92:49:42:60
-         Signal             : 33%  
+         Signal             : 31%  
          Radio type         : 802.11n
          Channel            : 3 
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54
 
-SSID 3 : HP
+SSID 4 : Telia-590A30
     Network type            : Infrastructure
     Authentication          : WPA2-Personal
     Encryption              : CCMP 
     BSSID 1                 : 34:db:9c:59:0a:37
-         Signal             : 70%  
+         Signal             : 75%  
          Radio type         : 802.11ac
-         Channel            : 10 
+         Channel            : 100 
          Basic rates (Mbps) : 6 12 24
          Other rates (Mbps) : 9 18 36 48 54
 
-SSID 4 : Koti
+SSID 5 : HP-Print-21-LaserJet 1102
+    Network type            : Infrastructure
+    Authentication          : Open
+    Encryption              : None 
+    BSSID 1                 : b8:76:3f:8d:3e:21
+         Signal             : 72%  
+         Radio type         : 802.11g
+         Channel            : 6 
+         Basic rates (Mbps) : 6
+         Other rates (Mbps) : 9 12 18 24 36 48 54
+
+SSID 6 : TP-LINK_B1E0
     Network type            : Infrastructure
     Authentication          : WPA2-Personal
     Encryption              : CCMP 
-    BSSID 1                 : 04:95:e6:04:5d:34
-         Signal             : 84%  
+    BSSID 1                 : a4:2b:b0:fa:b1:e0
+         Signal             : 43%  
          Radio type         : 802.11ac
-         Channel            : 40 
-         Basic rates (Mbps) : 6 9 12 18 24 36 48 54
-    BSSID 2                 : 04:95:e6:04:5d:3c
-         Signal             : 86%  
-         Radio type         : 802.11ac
-         Channel            : 40 
-         Basic rates (Mbps) : 6 9 12 18 24 36 48 54
-    BSSID 3                 : 04:95:e6:04:5d:31
-         Signal             : 81%  
-         Radio type         : 802.11n
-         Channel            : 6 
-         Basic rates (Mbps) : 1 2 5.5 11
-         Other rates (Mbps) : 6 9 12 18 24 36 48 54
-    BSSID 4                 : 04:95:e6:04:5d:39
-         Signal             : 84%  
-         Radio type         : 802.11n
          Channel            : 1 
          Basic rates (Mbps) : 1 2 5.5 11
          Other rates (Mbps) : 6 9 12 18 24 36 48 54

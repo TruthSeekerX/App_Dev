@@ -24,8 +24,9 @@ typedef struct{
 
 uint8_t wlan_count(FILE*);
 void wlan_analyse(FILE *fg);
-// int wlan_number(char*);
-// char *read_value(char*);
 enum LINE_TYPE what_line(char*);
 void show_wlan(struct ssid*, uint8_t);
-// void takeawaynewline(char*);
+
+// int wlan_number(char*);		//Not implemented
+// char *read_value(char*);		//Not implemented
+// void takeawaynewline(char*);	//Not implemented
