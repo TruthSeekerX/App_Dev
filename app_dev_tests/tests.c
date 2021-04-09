@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
+//This is added from Github
 
 //This is a test for Git conflict
 int main(int argv, char* argc[]) {
