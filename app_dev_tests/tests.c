@@ -2,6 +2,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 
+//This is a test for Git conflict
 int main(int argv, char* argc[]) {
     uint8_t* p_array, num;
     printf("please input the size of the array:");
