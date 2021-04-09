@@ -19,13 +19,13 @@ typedef struct{
 typedef struct{
 	char ssid[30];			// name of WLAN (SSID)
 	int num_ap;				// number of APs
-	ap aplist[20];	// a list of APs (dynamic)
+	ap aplist[20];			// a list of APs (dynamic)
 }ssid;
 
-int wlan_count(FILE*);
+uint8_t wlan_count(FILE*);
 void wlan_analyse(FILE *fg);
 // int wlan_number(char*);
 // char *read_value(char*);
 enum LINE_TYPE what_line(char*);
-// void show_wlan(struct ssid*, int);
+void show_wlan(struct ssid*, uint8_t);
 // void takeawaynewline(char*);
