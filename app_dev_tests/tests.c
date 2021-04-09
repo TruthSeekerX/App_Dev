@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
-
+//This is added from Github
 int main(int argv, char* argc[]) {
     uint8_t* p_array, num;
     printf("please input the size of the array:");
