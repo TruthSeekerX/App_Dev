@@ -15,7 +15,7 @@
 #include "wlan.h"
 
 int main(void) {
-//	system(CMD);
+//	system(CMD);	//The wlan.txt generated already, CMD get temporarily commented out for a more consistant testing/debugging process.
 	FILE* fp = fopen("wlan.txt", "r");
 	if (fp == NULL) {
 		printf("Error: can't open file.\n");
