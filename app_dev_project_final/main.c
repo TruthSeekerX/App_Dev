@@ -6,16 +6,16 @@
 *	   In this version:
 *		The prototype is ready for scan and display WiFi network informations. 
 *      Possible further improvements:
-*		1. Add signal strength by dBm. 
-*		2. Add "authentication" and "encryption" for each SSID.
-*		3. Add "network type" to each BSSID/AP.
+*		1. Add signal strength by dBm. DONE!
+*		2. Add "network type", "authentication" and "encryption" for each SSID. DONE!
+*		3. Add "radio type" to each BSSID/AP. DONE!
 *		4. Add algorithm and UI for sorting BSSIDs by channel or signal strength.
 * 09.04.2021
 ********************************************************************************************************************************************/
 #include "wlan.h"
 
 int main(void) {
-	system(CMD);
+//	system(CMD);
 	FILE* fp = fopen("wlan.txt", "r");
 	if (fp == NULL) {
 		printf("Error: can't open file.\n");

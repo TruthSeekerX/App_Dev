@@ -11,13 +11,17 @@
 enum LINE_TYPE { UNKNOWN = -1, SSID, NET, AUTH, ENCRYP, BSSID, SIG = 10, RADIO, CH };
 
 typedef struct{
-	char apmac[20];			// mac-address of AP
+	char apmac[30];			// mac-address of AP
+	char radio_type[30];
 	int signal_strength;	// a percentage value
 	int channel;			// between 1-13 in EU
 }ap;
 
 typedef struct{
 	char ssid[30];			// name of WLAN (SSID)
+	char network[30];
+	char authentication[30];
+	char encryption[30];
 	int num_ap;				// number of APs
 	ap aplist[20];			// a list of APs (dynamic)
 }ssid;
