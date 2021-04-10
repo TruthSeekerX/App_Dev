@@ -2,7 +2,7 @@
 
 int main() {
 	rock r;
-
+	srand(time(NULL));
 	printf("Application Developer Rock!\n");
 	printf("Enter Rocker's name: ");
 	scanf("%s", r.rname);
