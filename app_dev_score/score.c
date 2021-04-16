@@ -1,3 +1,6 @@
+/* This project is meant for studying first year IT engineering course Application Development.
+	Score project is meant for studying construct a software/program as multi files. 
+*/
 #include "score.h"
 
 //main function only sketches out the logic of program

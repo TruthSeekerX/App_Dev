@@ -1,3 +1,8 @@
+/* This project is meant for studying first year IT engineering course Application Development.
+Pascal project is used for studing debugging in MS-VS2019 and in Linux by GDB
+Result: There was an integer overflow bug in the code 
+*/
+
 #include "pascal.h"
 
 void pascal_triangle(uint8_t input) {

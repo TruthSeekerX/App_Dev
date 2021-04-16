@@ -1,3 +1,7 @@
+/* This project is meant for studying first year IT engineering course Application Development.
+This is a testing for libcurl library. It grabs the html code from a website(in this case www.google.com) and print it out on the screen.
+*/
+
 #include <stdio.h>
 #include <curl/curl.h>
 
