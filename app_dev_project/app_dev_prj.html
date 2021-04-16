@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head><title>APPLICATION_DEVELOPMENT_2021</title>
+<script>
+function getdata(){
+	fetch("http://www.cc.puv.fi/~e2002077/app_dev_prj.txt")
+	.then(r => r.text())
+	.then(data => dispdata(data))
+};
+function dispdata(d){
+	var ctt = document.getElementById("data");	
+	var lines = d.split("\n");
+	while(typeof lines[0]!="undefined"){
+		var oneline = lines.shift();
+		ctt.innerHTML += oneline + '<br/>';
+	}
+};
+</script>
+</head>
+<body onload="getdata()">
+<p id="data"></p>
+<canvas id="chart" height="400" width="1000" style="border:solid 2px purple">
+</canvas>
+
+<script>
+	function draw() {
+  		var canvas = document.getElementById("chart");
+  		if (canvas.getContext) {
+    			var ctx = canvas.getContext("2d");
+
+    			ctx.fillRect(30, 30, 100, 100);
+  		}
+	}
+</script>
+<!-- -->
+<!-- <script type="text/javascript" src="app_dev_prj.js"></script> -->
+</body>
+</html>
